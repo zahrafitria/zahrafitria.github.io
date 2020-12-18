@@ -1,0 +1,193 @@
+@font-face {
+    font-family: myFont;
+    src: url('../font/Raleway/Raleway-Regular.ttf');
+    font-family: Font1;
+    src: url('../font/Pinkerston/Pinkerston.ttf')
+}
+
+*{
+    box-sizing: border-box;
+    font-family: myFont;
+    margin: 0;
+    padding: 0;
+}
+.active a{
+    color:rgb(56, 56, 248) !important;
+}
+.wrapper{
+    background-color: rgb(250, 201, 154);
+    float:left;
+    width:100%;
+
+
+}
+/*Syntax CSS Untuk Top Header Logo*/
+.top-header{
+    float:left;
+    width:100%;
+    padding: 15px 0px;
+    position: relative;
+    background: #f1aa81;
+    color:#ffffff;
+}
+.top-header h4{
+    font-weight:normal;
+    text-align: center;
+}
+.content-wrapper{
+    max-width:1100px;
+    margin:0 auto;
+}
+/*End Syntax CSS Untuk Top Header Logo*/
+
+.header{
+    float:left;
+    width:100%;
+    padding:10px 100px;
+
+}
+
+/*Syntax CSS Untuk Header Logo*/
+.logo-header{
+    float:left;
+    width:30%;
+}
+
+
+/*Syntax CSS Header Banner*/
+.banner-header img{
+    width:100%;
+}
+
+/*Syntax CSS Content-Body*/
+.content-body{
+    float:left;
+    width:62%;
+    padding:10px 100px;
+
+}
+.content-body h2{
+    font-family: Font1;
+    margin-bottom:20px;
+    font-size: 35px!important;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 1.5;
+}
+.content-body p{
+    line-height: 2em;
+}
+
+/*Syntax CSS Sidebar*/
+.sidebar{
+    float:left;
+    width:29%;
+    padding:20px 50px;
+}
+.sidebar h2{
+    font-family: Font1;
+    margin-bottom:20px;
+    font-size: 20px!important;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.border-btm-sidebar{
+    border-bottom: 1px solid #757575;
+    margin-top:-10px;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 50px;
+}
+
+/*Syntax CSS Untuk Sidebar NAppreciation*/
+.appreciation-sidebar{
+    padding:10px 0px;
+}
+.appreciation-sidebar li{
+    padding-top:10px;
+    list-style: none;
+    font-size:14px;
+}
+
+/*Syntax CSS Untuk Footer*/
+.content-footer{
+    float:left;
+    margin: 0 auto;
+    width:100%;
+    padding: 40px 100px;
+}
+.col-content-footer{
+    padding:10px 0px;
+    float:left;
+    width:25%;
+}
+.col-content-footer h2{
+    font-family: myFont;
+    font-size: 20px!important;
+    line-height: 1.5;
+}
+.col-content-footer p{
+    margin-top: 20px;
+    line-height: 2em;
+}
+.border-btm-footer{
+    border-bottom: 1px solid #757575;
+    margin-top:10px;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 50px;
+}
+.footer{
+    float:left;
+    width:100%;
+    padding: 15px 0px;
+    position: relative;
+    background: #f89d73;
+    color:#ffffff;
+}
+.footer h5{
+    font-weight:normal;
+    text-align: center;
+}
+
+.nav-footer{
+    padding:10px 0px;
+}
+.nav-footer li{
+    padding-top:10px;
+    list-style: none;
+    font-size:14px;
+}
+#download-resume{
+    clear: both;
+    display: block;
+    margin-top: 2rem;
+}
+.download-btn{
+    padding: 15px 25px;
+    background-image: linear-gradient( 135deg, rgb(255 0 0 / .5) 20%, rgb(0 128 0 / .5) 70%);
+    color: #fff;
+    display: flex;
+    width: fit-content;
+    box-shadow: 1px 1px 10px #000;
+    border-radius: 7px;
+}
+#sosial-media{
+    margin-top: 2rem;
+    display: inline-flex;
+    list-style: none;
+}
+.sosial-media li { margin-left: 50px; }
+.icon-sosmed{ width: 55px; height: 55px;}
+
+/*CSS Untuk Nav Contact*/
+.nav-contact{
+    padding:10px 0px;
+}
+.nav-contact li{
+    padding-top:10px;
+    list-style: none;
+    font-size:14px;
+}

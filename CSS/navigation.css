@@ -1,0 +1,14 @@
+/*Syntax CSS Untuk Header Navigasi Menu*/
+.nav-header{
+    float:right;
+    width:70%;
+    padding:70px 0px;
+}
+.main-nav li{
+    display: inline;
+    margin-left:50px;
+}
+.main-nav li a{
+    color: #2600ff;
+    text-decoration: none;
+}
